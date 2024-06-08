@@ -60,9 +60,11 @@ soup = BeautifulSoup(response.content, 'html.parser')
 
 markdown_content = md.markdownify(str(soup), heading_style="ATX", bullets="-")
 
-start_index = markdown_content.find("## About Me")
+LOCATOR = "## About Me"
+start_index = markdown_content.find(LOCATOR)
 
 if start_index != -1:
+    start_index += len(LOCATOR) + 1
     markdown_content = markdown_content[start_index:]
 
 markdown_content = add_bullet_points(markdown_content)

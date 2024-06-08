@@ -2,13 +2,12 @@
 layout: default
 ---
 
-## About Me
 
 **I am currently seeking job opportunities in the fields of computer networks, systems, and storage technologies.**
 
-*My name is Minghao Xie, and I am a sixth-year Computer Engineering Ph.D. candidate at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree in Computer Science from Sichuan University, China.*
+*My name is Minghao Xie, and I am a Computer Engineering Ph.D. candidate at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree in Computer Science from Sichuan University, China.*
 
-*I am fortunate to be advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*. My research interests lie in computer networks and systems, with a current focus on flash storage disaggregation within data centers. This work is part of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) and the Hardware Systems Collective (*[*HSC*](https://hsc.ucsc.edu/)*) at UCSC. I am dedicated to building scalable, high-performance, and reliable systems.*
+*I am advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*. My research interests lie in computer networks and systems, with a current focus on flash storage disaggregation within data centers. This work is part of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) and the Hardware Systems Collective (*[*HSC*](https://hsc.ucsc.edu/)*) at UCSC. I am dedicated to building scalable, high-performance, and reliable systems.*
 
 *I am passionate about research and coding. I am an active language learner, fluent in both Chinese and English, and currently learning Japanese. In my free time, I enjoy spending time with my two cats,* [Toby](https://reflect.site/g/mhx/bc2a9325a02c4288b0ce4be9294f6862) *and* [Haruka](https://reflect.site/g/mhx/45fbba594816419dbe8120dfb3252d04)*, who often appear in my recent Instagram posts.*
 
