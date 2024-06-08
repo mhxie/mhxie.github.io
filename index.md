@@ -14,13 +14,13 @@ layout: default
 
 ## Teaching
 
-- CSE 150 (TA): Introduction to Computer Networks, 24Spring
+- CSE150 (TA): Introduction to Computer Networks, 24Spring
 - CSE120 (TA): Computer Architecture, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win
 - CMPE110 (TA): Computer Architecture, 19Win
 
 ## Projects
 
-**LESS: An SLO-aware Serverless Storage System** [GitHub] (2019 - 2023)  
+**LESS: An SLO-aware Serverless Storage System** [GitHub], 2019 - 2023  
 *Advisors: Heiner Litz, Chen Qian | Funding: CRSS, NSF*
 
 - Built a storage system with **SPDK** & **DPDK** in **C**, achieving 1M IOPS/core.
@@ -28,55 +28,55 @@ layout: default
 - Developed microsecond-level **Cython**-based **asynchronous** storage library.
 - Implemented applications (e.g., **Microservice**) deployed with **Terraform** on **AWS**.
 
-**Trading Density for Performance in DNA-based Archival Storage Systems** (23Spring)  
+**Trading Density for Performance in DNA-based Archival Storage Systems**, 23Spring  
 *Advisor:* [*Ethan Miller*](https://users.soe.ucsc.edu/~elm/)*, CSE 290S: Advanced Topics in Computer Systems*
 
 - Conducted research on the trade-offs between storage density and performance in DNA-based archival storage systems
 - Designed and evaluated novel approaches to optimize performance without significantly compromising storage density
 
-**AIRD: Your Personal AI RSS Daily** [[GitHub](https://github.com/mhxie/AIRD)] (2024)  
+**AIRD: Your Personal AI RSS Daily** [[GitHub](https://github.com/mhxie/AIRD)], 2024  
 *Personal Project*
 
 - Developed an AI-powered RSS assistant in **Python** for filtering and summarizing articles, featuring advanced deduplication and data privacy.
 - Configured customizable, multilingual support with plans for enhanced link reading and automated tagging.
 
-**Transport Optimization for Storage Disaggregation** (June -- Sep 2022)  
+**Transport Optimization for Storage Disaggregation**, June -- Sep 2022  
 *Company: Meta Platform, Mentor:* [*Minkyu Jeong*](https://www.linkedin.com/in/mjeong?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIT7fQBX6a1l-fYTtJhoWnOUIwTX7fz1Og&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people%3BeWoiB6C1RqaKfsxOwmswmw%3D%3D)*,* *Position: Research Engineering Intern at CEA*
 
 - Optimized and achieved 2.6x gain on throughput, 63% reduction in latency
 - Removed the performance bottleneck and scaled throughput linearly in **C++**
 
-**Disaggregated Storage for Embedding Table** (July -- Sep 2021)  
+**Disaggregated Storage for Embedding Table**, July -- Sep 2021  
 *Company: Facebook, Mentor:* [*Niket Agarwal*](https://www.linkedin.com/in/niket-agarwal-9522b27?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFKFc4B5KbmtZ193V1qc9l8Z-_1dAoXSaU)*, Position: Research Engineering Intern at CEA*
 
 - Analyzed the bottleneck of internal **PyTorch**-based SparseNN workloads
 - Implemented a userspace NBD **driver** sped up by 1.7x~6.7x in **C++**
 
-**Exploring the New SPDK Threading Model and its Scheduling Possibility** (20Winter)  
+**Exploring the New SPDK Threading Model and its Scheduling Possibility**, 20Winter  
 *Advisor: Ethan Miller, CSE 231: Advanced Operating Systems*
 
 - Conducted code analysis and performance evaluations on the new SPDK threading library
 - Designed and partially implemented a cooperative IO-thread scheduler with new SPDK APIs
 
-**Supporting Scalable Fault-Tolerant Distributed** **Message Queue with Persistent Storage** [[Github](https://github.com/mhxie/disque_protocol)](19Fall)  
+**Supporting Scalable Fault-Tolerant Distributed** **Message Queue with Persistent Storage** [[Github](https://github.com/mhxie/disque_protocol)]**,** 19Fall  
 *Advisor:* [*Faisal Nawab*](https://www.nawab.me/)*, CSE 214: Principles of Database Systems*
 
 - Designed a distributed message queue framework with fault tolerance
 - Implemented log-based mechanism to resolve the inter-broker failures
 
-**A Ultra-low Latency QUIC-stack Acceleration Engine** (19Winter)  
+**A Ultra-low Latency QUIC-stack Acceleration Engine**, 19Winter  
 *Advisor:* [*Scott Beamer*](https://scottbeamer.net/)*, CMPE 293: Programmable Hardware Accelerators*
 
 - Conducted characterization of **QUIC** protocol and workload analysis
 - Designed a **NetFPGA**-based acceleration engine
 
-**Towards Single Round-Trip: An Efficient Metadata Offloading Mechanism for Tree-based Oblivious RAM** (19Winter)  
+**Towards Single Round-Trip: An Efficient Metadata Offloading Mechanism for Tree-based Oblivious RAM**, 19Winter  
 *Advisor: Chen Qian, CMPE 253: Network Security*
 
 - Designed a way of efficient metadata management based on ring **ORAM** and Information-theoretical Private-information-retrieval (ITPIR)
 - Optimized the algorithm with multi-step bit-based accelerations
 
-**Evaluating 100Gbps Flash Disaggregation on ARM SoC** [[GitHub](https://github.com/mhxie/reflex4arm)] [[Paper](https://www.ssrc.ucsc.edu/media/pubs/89a276a7823f1ca45cb66c163f20dccc81bfa959.pdf)] (2018 - 2019)  
+**Evaluating 100Gbps Flash Disaggregation on ARM SoC** [[GitHub](https://github.com/mhxie/reflex4arm)] [[Paper](https://www.ssrc.ucsc.edu/media/pubs/89a276a7823f1ca45cb66c163f20dccc81bfa959.pdf)], 2018 - 2019  
 *Advisor: Heiner Litz and Chen Qian, Funding: CRSS, Broadcom & NSF*
 
 - Developed a cross-platform networked storage stack in **C** using **SPDK** and **DPDK**, built with **Meson**
