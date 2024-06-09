@@ -85,7 +85,7 @@ layout: default
 
 1. Liu, Y., Shi, S., **Xie, M**., Litz H., & Qian, C. SMASH: Flexible, Fast, and Resource-efficient Placement and Lookup of Distributed Storage. In conference of the ACM special interest group for the computer systems performance evaluation community (SIGMETRICS '23).
 
-2. Shi, S., Yu, Y., **Xie, M.**, Li X., Li, X., Zhang, Y. & Qian, C. Concury: A Fast and Light-weight Software Cloud **Load Balancer**. In conference of the ACM Symposium on Cloud Computing 2020 (SOCC '20).
+2. Shi, S., Yu, Y., **Xie, M.**, Li X., Li, X., Zhang, Y. & Qian, C. Concury: A Fast and Light-weight Software Cloud Load Balancer. In conference of the ACM Symposium on Cloud Computing 2020 (SOCC '20).
 
 3. **Xie, M.**, Qian, C., Litz, H. ReFlex4ARM: Supporting 100GbE Flash Storage Disaggregation on ARM SoC. OCP Future Technologies Symposium 2020. Poster session in San Jose, CA (OCP '20).
 
@@ -93,4 +93,4 @@ layout: default
 
 
 
-Last update on 2024-06-08
+Last update on 2024-06-09
