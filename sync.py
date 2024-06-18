@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import markdownify as md
 from datetime import datetime
+import os
 
 url = 'https://reflect.site/g/mhx/minghao-xie--home-page/c65e893dc6f546f0b0867ec0158fb8ba'
 
@@ -75,7 +76,18 @@ markdown_content += f"\n\nLast update on {current_date}"
 front_matter = "---\nlayout: default\n---\n\n"
 markdown_content = front_matter + markdown_content
 
-with open("index.md", "w", encoding="utf-8") as file:
-    file.write(markdown_content)
-
-print("Markdown file has been created successfully.")
+# Check if index.md exists and compare content
+file_path = "index.md"
+if os.path.exists(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        existing_content = file.read()
+    if existing_content == markdown_content:
+        print("No changes detected. Markdown file is up-to-date.")
+    else:
+        with open(file_path, "w", encoding="utf-8") as file:
+            file.write(markdown_content)
+        print("Markdown file has been updated successfully.")
+else:
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(markdown_content)
+    print("Markdown file has been created successfully.")
