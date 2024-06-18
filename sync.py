@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import markdownify as md
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 
 url = 'https://reflect.site/g/mhx/minghao-xie--home-page/c65e893dc6f546f0b0867ec0158fb8ba'
@@ -70,24 +70,34 @@ if start_index != -1:
 
 markdown_content = add_bullet_points(markdown_content)
 
-current_date = datetime.utcnow().strftime('%Y-%m-%d')
-markdown_content += f"\n\nLast update on {current_date}"
-
 front_matter = "---\nlayout: default\n---\n\n"
-markdown_content = front_matter + markdown_content
+new_content = front_matter + markdown_content
+
+# Function to remove the last update line from the content
+def remove_last_update_line(content):
+    lines = content.split('\n')
+    if lines and lines[-1].startswith("Last update on"):
+        lines = lines[:-2]
+    return '\n'.join(lines)
 
 # Check if index.md exists and compare content
 file_path = "index.md"
 if os.path.exists(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         existing_content = file.read()
-    if existing_content == markdown_content:
+    existing_content_without_update = remove_last_update_line(existing_content)
+
+    if existing_content_without_update == new_content:
         print("No changes detected. Markdown file is up-to-date.")
     else:
+        current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+        new_content += f"\n\nLast update on {current_date}"
         with open(file_path, "w", encoding="utf-8") as file:
-            file.write(markdown_content)
+            file.write(new_content)
         print("Markdown file has been updated successfully.")
 else:
+    current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    new_content += f"\n\nLast update on {current_date}"
     with open(file_path, "w", encoding="utf-8") as file:
-        file.write(markdown_content)
+        file.write(new_content)
     print("Markdown file has been created successfully.")
