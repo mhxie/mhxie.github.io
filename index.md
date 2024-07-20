@@ -81,7 +81,7 @@ layout: default
 - Developed a cross\-platform networked storage stack in **C** using **SPDK** and **DPDK**, built with **Meson**
 - Optimized **ARM** platform code at assembly level, achieving 2M IOPS
 
-## Publication
+## Publications
 
 1. Liu, Y., Shi, S., **Xie, M**., Litz H., \& Qian, C. SMASH: Flexible, Fast, and Resource\-efficient Placement and Lookup of Distributed Storage. In conference of the ACM special interest group for the computer systems performance evaluation community (SIGMETRICS '23\).
 
@@ -93,4 +93,4 @@ layout: default
 
 
 
-Last update on 2024-07-15
+Last update on 2024-07-20
