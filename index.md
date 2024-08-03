@@ -19,13 +19,12 @@ layout: default
 
 ## Projects
 
-**LESS: An SLO\-aware Serverless Storage System** \[GitHub], 2019 \- 2023  
+**Thesis: Predictable Cloud Storage System** \[GitHub], 2019 \- 2023  
 *Advisors: Heiner Litz, Chen Qian \| Funding: CRSS, NSF*
 
-- Built a storage system with **SPDK** \& **DPDK** in **C**, achieving 1M IOPS/core.
-- Designed an SLO scheduler deployed with **Ray**, saving up to 37% TCO.
-- Developed microsecond\-level **Cython**\-based **asynchronous** storage library.
-- Implemented applications (e.g., **Microservice**) deployed with **Terraform** on **AWS**.
+- Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
+- Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
+- Designed and implemented a novel flow\-based scheduler using **Ray**, resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
 
 **Trading Density for Performance in DNA\-based Archival Storage Systems**, 23Spring  
 *Advisor:* [*Ethan Miller*](https://users.soe.ucsc.edu/~elm/)*, CSE 290S: Advanced Topics in Computer Systems*
@@ -42,14 +41,16 @@ layout: default
 **Transport Optimization for Storage Disaggregation**, June \-\- Sep 2022  
 *Company: Meta Platform, Mentor:* [*Minkyu Jeong*](https://www.linkedin.com/in/mjeong?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIT7fQBX6a1l-fYTtJhoWnOUIwTX7fz1Og&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people%3BeWoiB6C1RqaKfsxOwmswmw%3D%3D)*,* *Position: Research Engineering Intern at CEA*
 
-- Optimized and achieved 2\.6x gain on throughput, 63% reduction in latency
-- Removed the performance bottleneck and scaled throughput linearly in **C\+\+**
+- Collaborated with the storage team to identify transport alternatives to **Thrift** for internal storage workloads, focusing on enhancing performance and scalability.
+- Achieved a **2\.6x** increase in throughput and a **63%** reduction in latency by optimizing data transport mechanisms and implementing efficient algorithms in **C\+\+**.
+- Removed bottlenecks through advanced **profiling** and **tuning** techniques, leading to **linear** throughput scalability and proportional cost efficiency improvements.
 
-**Disaggregated Storage for Embedding Table**, July \-\- Sep 2021  
+**Disaggregated Optane SSD for Embedding Table**, July \-\- Sep 2021  
 *Company: Facebook, Mentor:* [*Niket Agarwal*](https://www.linkedin.com/in/niket-agarwal-9522b27?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFKFc4B5KbmtZ193V1qc9l8Z-_1dAoXSaU)*, Position: Research Engineering Intern at CEA*
 
-- Analyzed the bottleneck of internal **PyTorch**\-based SparseNN workloads
-- Implemented a userspace NBD **driver** sped up by 1\.7x\~6\.7x in **C\+\+**
+- Worked closely with the ML team to analyze and address scaling bottlenecks and disaggregation needs of internal **PyTorch**\-based **SparseNN** workloads.
+- Developed a fast userspace NBD **driver** in **C\+\+**, achieving a speedup of **1\.7x** to **6\.7x**, demonstrating proficiency in low\-level systems programming and perf. optimization.
+- Enhanced support for large\-scale **ML workloads** by contributing to an internal library, and published a comprehensive project note to document its impact.
 
 **Exploring the New SPDK Threading Model and its Scheduling Possibility**, 20Winter  
 *Advisor: Ethan Miller, CSE 231: Advanced Operating Systems*
@@ -78,8 +79,8 @@ layout: default
 **Evaluating 100Gbps Flash Disaggregation on ARM SoC** \[[GitHub](https://github.com/mhxie/reflex4arm)] \[[Paper](https://www.ssrc.ucsc.edu/media/pubs/89a276a7823f1ca45cb66c163f20dccc81bfa959.pdf)], 2018 \- 2019  
 *Advisor: Heiner Litz and Chen Qian, Funding: CRSS, Broadcom \& NSF*
 
-- Developed a cross\-platform networked storage stack in **C** using **SPDK** and **DPDK**, built with **Meson**
-- Optimized **ARM** platform code at assembly level, achieving 2M IOPS
+- Built a performant open\-sourced storage system with **SPDK** and **DPDK** in **C**.
+- Optimized the **ARM** system at the **assembly** level, reducing TCO by **2\.57x**.
 
 ## Publications
 
@@ -93,4 +94,4 @@ layout: default
 
 
 
-Last update on 2024-07-20
+Last update on 2024-08-03
