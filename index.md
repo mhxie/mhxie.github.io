@@ -14,7 +14,7 @@ layout: default
 ## Teaching
 
 - CSE150 (TA): Introduction to Computer Networks, 24Spring
-- CSE120 (TA): Computer Architecture, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win
+- CSE120 (TA): Computer Architecture, **24Fall**, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win
 - CMPE110 (TA): Computer Architecture, 19Win
 
 ## Projects
@@ -94,4 +94,4 @@ layout: default
 
 
 
-Last update on 2024-08-03
+Last update on 2024-09-12
