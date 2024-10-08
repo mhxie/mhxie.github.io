@@ -19,12 +19,13 @@ layout: default
 
 ## Projects
 
-**Thesis: Predictable Cloud Storage System** \[GitHub], 2019 \- 2023  
+**Thesis: Predictable Cloud Storage System** \[GitHub] \[Paper], 2019 \- 2023  
 *Advisors: Heiner Litz, Chen Qian \| Funding: CRSS, NSF*
 
 - Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
 - Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
 - Designed and implemented a novel flow\-based scheduler using **Ray**, resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
+- Finished two papers for top\-tier conferences: \[En4S] (SoCC ’24\), \[LESS] (in sub).
 
 **Trading Density for Performance in DNA\-based Archival Storage Systems**, 23Spring  
 *Advisor:* [*Ethan Miller*](https://users.soe.ucsc.edu/~elm/)*, CSE 290S: Advanced Topics in Computer Systems*
@@ -94,4 +95,4 @@ layout: default
 
 
 
-Last update on 2024-09-12
+Last update on 2024-10-08
