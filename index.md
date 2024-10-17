@@ -25,10 +25,10 @@ layout: default
 - Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
 - Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
 - Designed and implemented a novel flow\-based scheduler using **Ray**, resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
-- Finished two papers for top\-tier conferences: \[En4S] (SoCC ’24\), \[LESS] (in sub).
+- Finished two papers for top\-tier conferences: \[En4S] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), \[LESS] \[Code] (in sub).
 
 **Trading Density for Performance in DNA\-based Archival Storage Systems**, 23Spring  
-*Advisor:* [*Ethan Miller*](https://users.soe.ucsc.edu/~elm/)*, CSE 290S: Advanced Topics in Computer Systems*
+*Advisor:* [*Ethan Miller*](https://ethanmiller.org/)*, CSE 290S: Advanced Topics in Computer Systems*
 
 - Conducted research on the trade\-offs between storage density and performance in DNA\-based archival storage systems
 - Designed and evaluated novel approaches to optimize performance without significantly compromising storage density
@@ -54,7 +54,7 @@ layout: default
 - Enhanced support for large\-scale **ML workloads** by contributing to an internal library, and published a comprehensive project note to document its impact.
 
 **Exploring the New SPDK Threading Model and its Scheduling Possibility**, 20Winter  
-*Advisor: Ethan Miller, CSE 231: Advanced Operating Systems*
+*Advisor:* [*Ethan Miller*](https://ethanmiller.org/)*, CSE 231: Advanced Operating Systems*
 
 - Conducted code analysis and performance evaluations on the new SPDK threading library
 - Designed and partially implemented a cooperative IO\-thread scheduler with new SPDK APIs
@@ -95,4 +95,4 @@ layout: default
 
 
 
-Last update on 2024-10-08
+Last update on 2024-10-17
