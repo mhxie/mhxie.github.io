@@ -3,8 +3,6 @@ layout: default
 ---
 
 
-**I am currently seeking job opportunities in the fields of computer networks, systems, and storage technologies.**
-
 *My name is Minghao Xie, and I am a final\-year Computer Engineering Ph.D. candidate at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree in Computer Science from Sichuan University, China.*
 
 *I am advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*. My research interests lie in computer networks and systems, with a current focus on flash storage disaggregation within data centers. The research was supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC, and the National Science Foundation (NSF). I am dedicated to building scalable, high\-performance, and reliable systems.*
@@ -97,4 +95,4 @@ layout: default
 
 
 
-Last update on 2024-10-21
+Last update on 2024-11-07
