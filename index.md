@@ -7,9 +7,9 @@ layout: default
 
 *I am advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*. My research interests encompass computer networks and systems, with a current focus on flash storage disaggregation within data centers. Recently, I have expanded my focus to include AI infrastructure, particularly in areas such as scalable compute platforms and distributed computing frameworks. My PhD research was supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC, and the National Science Foundation (NSF).* 
 
-*I am passionate about developing scalable, high\-performance, and reliable systems. I enjoy exploring new technologies and researching design trade\-offs among them. In my free time, I spend time with my two adorable cats,* [Toby](https://reflect.site/g/mhx/bc2a9325a02c4288b0ce4be9294f6862) *and* [Haruka](https://reflect.site/g/mhx/45fbba594816419dbe8120dfb3252d04)*, who often appear in my recent Instagram posts.*
+*I am passionate about developing scalable, high\-performance, and reliable systems. I enjoy diving into new technologies, exploring design trade\-offs, and uncovering ways to optimize system performance. Outside of work, I’m an avid traveler, always looking to explore new cities, hike scenic trails, and savor local foods. At home, I spend time with my two adorable cats,* [Toby](https://reflect.site/g/mhx/bc2a9325a02c4288b0ce4be9294f6862) *and* [Haruka](https://reflect.site/g/mhx/45fbba594816419dbe8120dfb3252d04)*, who often make appearances on my Instagram feed. I also love strategy\-based and board games, which keep my problem\-solving skills sharp and add a bit of fun to my downtime.*
 
-*I also watch NBA games, and my favorite players are Kevin Durant of the Phoenix Suns. Despite being one of the most talented players in NBA history, KD remains humble and dedicated to continuous improvement. His relentless work ethic and passion for basketball inspire me to uphold similar values of dedication and humility in my own pursuits.*
+*In addition to gaming and travel, I’m an avid NBA fan, especially of Kevin Durant and Devin Booker from the Phoenix Suns. KD, in particular, is one of the most talented players in NBA history, yet he remains humble and committed to continuous improvement. His relentless work ethic and passion for the game inspire me to bring the same dedication and humility to my own pursuits.*
 
 ## Research Experience
 
@@ -18,7 +18,7 @@ layout: default
 
 - Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
 - Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
-- Designed and implemented a novel flow\-based scheduler using **Ray**, resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
+- Designed and implemented a novel flow\-based scheduler using [**Ray**](https://www.ray.io/), resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
 - Finished two papers for top\-tier conferences: **En4S** \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), **LESS** \[PDF] \[Code] (in sub).
 
 **Transport Optimization for Storage Disaggregation**, June \-\- Sep 2022  
@@ -49,7 +49,7 @@ layout: default
 
 ## Publications
 
-1. Liu, Y., **Xie, M.**, Shi, S., Xu, Y., Litz, H., \& Qian, C. (2025\). Outback: Fast and communication\-efficient index for key\-value store on disaggregated memory. In conference of the VLDB Endowment (VLDB ’25\). \[PDF]
+1. Liu, Y., **Xie, M.**, Shi, S., Xu, Y., Litz, H., Qian, C. (2025\). Outback: Fast and communication\-efficient index for key\-value store on disaggregated memory. In conference of the VLDB Endowment (VLDB ’25\). \[PDF]
 
 2. **Xie, M**., Qian, C., Litz, H. (2024\). En4S: Enabling SLOs in serverless storage systems. Proceedings of the ACM Symposium on Cloud Computing (SoCC ’24\). \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)]
 
