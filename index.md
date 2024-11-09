@@ -18,7 +18,7 @@ layout: default
 
 - Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
 - Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
-- Designed and implemented a novel flow\-based scheduler using [**Ray**](https://www.ray.io/), resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
+- Designed and implemented a novel flow\-based scheduler using \[[Ray](https://www.ray.io/)], resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
 - Finished two papers for top\-tier conferences: **En4S** \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), **LESS** \[PDF] \[Code] (in sub).
 
 **Transport Optimization for Storage Disaggregation**, June \-\- Sep 2022  
@@ -63,4 +63,4 @@ layout: default
 
 
 
-Last update on 2024-11-07
+Last update on 2024-11-09
