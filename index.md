@@ -3,18 +3,13 @@ layout: default
 ---
 
 
-*My name is Minghao Xie, and I am a final\-year Computer Engineering Ph.D. candidate at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honor) in Computer Science from Sichuan University, China.*
+*My name is Minghao Xie, and I am a final\-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and the NSF.*
 
-*I am advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*. My research interests encompass computer networks and systems, with a current focus on flash storage disaggregation within data centers. Recently, I have expanded my focus to include AI infrastructure, particularly in areas such as scalable compute platforms and distributed computing frameworks. My PhD research was supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC, and the National Science Foundation (NSF).* 
-
-*I am passionate about developing scalable, high\-performance, and reliable systems. I enjoy diving into new technologies, exploring design trade\-offs, and uncovering ways to optimize system performance. Outside of work, I’m an avid traveler, always looking to explore new cities, hike scenic trails, and savor local foods. At home, I spend time with my two adorable cats,* [Toby](https://reflect.site/g/mhx/bc2a9325a02c4288b0ce4be9294f6862) *and* [Haruka](https://reflect.site/g/mhx/45fbba594816419dbe8120dfb3252d04)*, who often make appearances on my Instagram feed. I also love strategy\-based and board games, which keep my problem\-solving skills sharp and add a bit of fun to my downtime.*
-
-*In addition to gaming and travel, I’m an avid NBA fan, especially of Kevin Durant and Devin Booker from the Phoenix Suns. KD, in particular, is one of the most talented players in NBA history, yet he remains humble and committed to continuous improvement. His relentless work ethic and passion for the game inspire me to bring the same dedication and humility to my own pursuits.*
+*I am passionate about building scalable, high\-performance, and reliable systems. Outside of work, I enjoy traveling, hiking, exploring new cities, and following the NBA, drawing inspiration from players like Kevin Durant for his dedication and humility.*
 
 ## Research Experience
 
-**Thesis: Predictable Cloud Storage System**, 2019 \- 2024  
-*Advisors: Heiner Litz, Chen Qian \| Funding: CRSS and NSF*
+**Thesis: Predictable Cloud Storage System**, 2019 \- 2024
 
 - Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
 - Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
@@ -22,21 +17,20 @@ layout: default
 - Finished two papers for top\-tier conferences: **En4S** \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), **LESS** \[PDF] \[Code] (in sub).
 
 **Transport Optimization for Storage Disaggregation**, June \-\- Sep 2022  
-*Company: Meta Platform, Mentor:* [*Minkyu Jeong*](https://www.linkedin.com/in/mjeong?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIT7fQBX6a1l-fYTtJhoWnOUIwTX7fz1Og&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people%3BeWoiB6C1RqaKfsxOwmswmw%3D%3D)*,* *Position: Research Engineering Intern at CEA*
+*Company: Meta Platform,* *Position: Research Engineering Intern at CEA*
 
 - Collaborated with the storage team to identify transport alternatives to **Thrift** for internal storage workloads, focusing on enhancing performance and scalability.
 - Achieved a **2\.6x** increase in throughput and a **63%** reduction in latency by optimizing data transport mechanisms and implementing efficient algorithms in **C\+\+**.
 - Removed bottlenecks through advanced **profiling** and **tuning** techniques, leading to **linear** throughput scalability and proportional cost efficiency improvements.
 
 **Disaggregated Optane SSD for Embedding Table**, July \-\- Sep 2021  
-*Company: Facebook, Mentor:* [*Niket Agarwal*](https://www.linkedin.com/in/niket-agarwal-9522b27?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFKFc4B5KbmtZ193V1qc9l8Z-_1dAoXSaU)*, Position: Research Engineering Intern at CEA*
+*Company: Facebook, Position: Research Engineering Intern at CEA*
 
 - Worked closely with the ML team to analyze and address scaling bottlenecks and disaggregation needs of internal **PyTorch**\-based **SparseNN** workloads.
 - Developed a fast userspace NBD **driver** in **C\+\+**, achieving a speedup of **1\.7x** to **6\.7x**, demonstrating proficiency in low\-level systems programming and perf. optimization.
 - Enhanced support for large\-scale **ML workloads** by contributing to an internal library, and published a comprehensive project note to document its impact.
 
-**Evaluating 100Gbps Flash Disaggregation on ARM SoC** \[[Code](https://github.com/mhxie/reflex4arm)], 2018 \- 2019  
-*Advisor: Heiner Litz and Chen Qian, Funding: CRSS, Broadcom and NSF*
+**Evaluating 100Gbps Flash Disaggregation on ARM SoC** \[[Code](https://github.com/mhxie/reflex4arm)], 2018 \- 2019
 
 - Built a performant open\-sourced storage system with **SPDK** and **DPDK** in **C**.
 - Optimized the **ARM** system at the **assembly** level, reducing TCO by **2\.57x**.
