@@ -5,41 +5,50 @@ layout: default
 
 *My name is Minghao Xie, and I am a final\-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and the NSF.*
 
-*I am passionate about building scalable, high\-performance, and reliable systems. Outside of work, I enjoy traveling, hiking, exploring new cities, and following the NBA, drawing inspiration from players like Kevin Durant for his dedication and humility.*
+*I am passionate about building scalable, high\-performance, and reliable systems. Outside of work, I love exploring new places, as traveling opens my mind to fresh perspectives and diverse ways of life. Strategy\-based and board games are a favorite pastime, challenging me to solve problems creatively and adapt to evolving scenarios. And as an NBA fan, I admire the dedication and humility of players like Kevin Durant, inspiring me to bring the same relentless commitment to my own goals.*
 
-## Research Experience
-
-**Thesis: Predictable Cloud Storage System**, 2019 \- 2024
-
-- Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
-- Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
-- Designed and implemented a novel flow\-based scheduler using \[[Ray](https://www.ray.io/)], resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
-- Finished two papers for top\-tier conferences: **En4S** \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), **LESS** \[PDF] \[Code] (in sub).
+## Work Experience
 
 **Transport Optimization for Storage Disaggregation**, June \-\- Sep 2022  
-*Company: Meta Platform,* *Position: Research Engineering Intern at CEA*
+*Meta Platform, Research Engineering Intern at CEA*
 
 - Collaborated with the storage team to identify transport alternatives to **Thrift** for internal storage workloads, focusing on enhancing performance and scalability.
 - Achieved a **2\.6x** increase in throughput and a **63%** reduction in latency by optimizing data transport mechanisms and implementing efficient algorithms in **C\+\+**.
 - Removed bottlenecks through advanced **profiling** and **tuning** techniques, leading to **linear** throughput scalability and proportional cost efficiency improvements.
 
 **Disaggregated Optane SSD for Embedding Table**, July \-\- Sep 2021  
-*Company: Facebook, Position: Research Engineering Intern at CEA*
+*Facebook, Research Engineering Intern at CEA*
 
 - Worked closely with the ML team to analyze and address scaling bottlenecks and disaggregation needs of internal **PyTorch**\-based **SparseNN** workloads.
 - Developed a fast userspace NBD **driver** in **C\+\+**, achieving a speedup of **1\.7x** to **6\.7x**, demonstrating proficiency in low\-level systems programming and perf. optimization.
 - Enhanced support for large\-scale **ML workloads** by contributing to an internal library, and published a comprehensive project note to document its impact.
 
-**Evaluating 100Gbps Flash Disaggregation on ARM SoC** \[[Code](https://github.com/mhxie/reflex4arm)], 2018 \- 2019
+## Research Experience
+
+**Thesis: Making Flash Storage Disaggregation Fast, Predictable, and Scalable**, 2019 \- 2024  
+*UC Santa Cruz, Research Assistant, Funded by CRSS and NSF*
+
+- Analyzed the performance unpredictability in ephemeral storage (for **serverless** computing) and engineered a profile\-based system, enhancing goodput predictability by up to **3x**.
+- Created a high\-performance, μs\-level **async** serverless client library using **Cython**, and developed cloud\-native applications (e.g. ML and microservices) with it on **AWS**.
+- Designed and implemented a novel flow\-based scheduler using \[[Ray](https://www.ray.io/)], resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
+- Finished two papers for top\-tier conferences: **En4S** \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] \[[Code](https://github.com/mhxie/En4S)] (SoCC ’24\), **LESS** \[PDF] \[Code] (in sub).
+
+**Evaluating 100Gbps Flash Disaggregation on ARM SoC** \[[Code](https://github.com/mhxie/reflex4arm)], 2018 \- 2019  
+*UC Santa Cruz, Research Assistant, Funded by CRSS and Broadcom Inc.*
 
 - Built a performant open\-sourced storage system with **SPDK** and **DPDK** in **C**.
 - Optimized the **ARM** system at the **assembly** level, reducing TCO by **2\.57x**.
 
+**Stateful SDN\-based Caching Strategy for NDN Networks**, 2017 \- 2018  
+*Sichuan University, Research Assistant, Funded by* [*The Pilot Project 1\.0*](https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91%E6%8B%94%E5%B0%96%E5%AD%A6%E7%94%9F%E5%9F%B9%E5%85%BB%E8%AF%95%E9%AA%8C%E8%AE%A1%E5%88%92)
+
+- Developed the Edge\-Recency Interior\-Frequency (ERIF)caching strategy with stateful **SDN** for **NDN** networks, achieving **2\.3x** higher cache hit rates and reducing response time by **38%** through a hybrid of **Hungarian** and **greedy algorithms** to manage cache allocation effectively.
+- Implemented extensible finite state machines (**XFSMs**) on the data plane to support real\-time caching decisions, enhancing system adaptability and lowering latency by **30%** in simulations compared to traditional on\-path caching methods
+
 ## Teaching
 
 - CSE150 (TA): Introduction to Computer Networks, 24Spring
-- CSE120 (TA): Computer Architecture, **24Fall**, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win
-- CMPE110 (TA): Computer Architecture, 19Win
+- CSE120 (TA): Computer Architecture, **24Fall**, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win, 19Win
 
 ## Publications
 
@@ -57,4 +66,4 @@ layout: default
 
 
 
-Last update on 2024-11-09
+Last update on 2024-11-10
