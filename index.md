@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-*My name is Minghao Xie, and I am a final\-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and the NSF.*
+*My name is Minghao Xie, and I am a final\-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and National Sanitation Foundation (NSF).*
 
 *I am passionate about building scalable, high\-performance, and reliable systems. Outside of work, I love exploring new places, as traveling opens my mind to fresh perspectives and diverse ways of life. Strategy\-based and board games are a favorite pastime, challenging me to solve problems creatively and adapt to evolving scenarios. And as an NBA fan, I admire the dedication and humility of players like Kevin Durant, inspiring me to bring the same relentless commitment to my own goals.*
 
@@ -52,18 +52,18 @@ layout: default
 
 ## Publications
 
-1. Liu, Y., **Xie, M.**, Shi, S., Xu, Y., Litz, H., Qian, C. (2025\). Outback: Fast and communication\-efficient index for key\-value store on disaggregated memory. In conference of the VLDB Endowment (VLDB ’25\). \[PDF]
+1. [VLDB '25] Liu, Y., **Xie, M.**, Shi, S., Xu, Y., Litz, H., Qian, C. (2025, September). Outback: Fast and communication-efficient index for key-value store on disaggregated memory. In conference of the VLDB Endowment. [PDF]
 
-2. **Xie, M**., Qian, C., Litz, H. (2024\). En4S: Enabling SLOs in serverless storage systems. Proceedings of the ACM Symposium on Cloud Computing (SoCC ’24\). \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)]
+2. [SoCC '24] **Xie, M.**, Qian, C., Litz, H. (2024, November). En4S: Enabling SLOs in Serverless Storage Systems. In _Proceedings of the 2024 ACM Symposium on Cloud Computing_ (pp. 160-177). [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)
 
-3. Liu, Y., Shi, S., **Xie, M**., Litz H., Qian, C. Smash: Flexible, Fast, and Resource\-efficient Placement and Lookup of Distributed Storage. In conference of the ACM special interest group for the computer systems performance evaluation community (SIGMETRICS '23\). \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/Smash.pdf)]
+3. [SIGMETRICS '23] Liu, Y., Shi, S., **Xie, M.**, Litz, H., Qian, C. (2023, June). Smash: Flexible, fast, and resource-efficient placement and lookup of distributed storage. _Proceedings of the ACM on Measurement and Analysis of Computing Systems_, _7_(2), 1-22. [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/Smash.pdf)
 
-4. Shi, S., Yu, Y., **Xie, M.**, Li X., Li, X., Zhang, Y., Qian, C. Concury: A Fast and Light\-weight Software Cloud Load Balancer. In conference of the ACM Symposium on Cloud Computing 2020 (SoCC '20\). \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/Concury.pdf)]
+4. [SoCC '20] Shi, S., Yu, Y., **Xie, M.**, Li, X., Li, X., Zhang, Y., Qian, C. (2020, October). Concury: A fast and light-weight software cloud load balancer. In _Proceedings of the 11th ACM Symposium on Cloud Computing_ (pp. 179-192). [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/Concury.pdf)
 
-5. **Xie, M.**, Qian, C., Litz, H. ReFlex4ARM: Supporting 100GbE Flash Storage Disaggregation on ARM SoC. OCP Future Technologies Symposium 2020\. Poster session in San Jose, CA (OCP '20\). \[[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf)]
+5. [OCP '20] **Xie, M.**, Qian, C. (2020, January). ReFlex4arm: Supporting 100GbE flash storage disaggregation on ARM SoC. In _OCP Future Technology Symposium_. [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf)
 
-6. **Xie, M.**, Qian, C., Litz, H. (2019, August 4\-6\). Evaluating 100Gbps Flash Disaggregation on ARM SoC. Flash Memory Summit 2019 (FMS '19\). Poster session in Santa Clara, CA.
+6. [FMS '19] **Xie, M.**, Qian, C., Litz, H. (2019, August). Evaluating 100Gbps flash disaggregation on ARM SoC. In Flash Memory Summit.
 
 
 
-Last update on 2024-11-10
+Last update on 2024-11-19
