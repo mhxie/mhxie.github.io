@@ -90,9 +90,11 @@ if main_content_div:
                     name = a.get_text(strip=True)
                     if name in ['Google Scholar', 'LinkedIn', "Minghao's Blog"]:
                         href = a['href']
-                        # Adjust the name to 'Blog' if it's 'Minghao's Blog'
+                        # Adjust the names as needed
                         if name == "Minghao's Blog":
                             display_name = 'Blog'
+                        elif name == "Google Scholar":
+                            display_name = 'Scholar'
                         else:
                             display_name = name
                         social_links[display_name] = href
@@ -164,12 +166,12 @@ default_html = re.sub(
     flags=re.DOTALL
 )
 
-# Build the new social links HTML with adjusted display name for the blog
+# Build the new social links HTML with adjusted display names
 social_links_html = ''
-for name in ['Google Scholar', 'LinkedIn', 'Blog']:
+for name in ['Scholar', 'LinkedIn', 'Blog']:
     href = social_links.get(name)
     if href:
-        if name == 'Google Scholar':
+        if name == 'Scholar':
             icon_class = 'fas fa-graduation-cap'
         elif name == 'LinkedIn':
             icon_class = 'fab fa-linkedin'
