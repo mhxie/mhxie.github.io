@@ -90,7 +90,12 @@ if main_content_div:
                     name = a.get_text(strip=True)
                     if name in ['Google Scholar', 'LinkedIn', "Minghao's Blog"]:
                         href = a['href']
-                        social_links[name] = href
+                        # Adjust the name to 'Blog' if it's 'Minghao's Blog'
+                        if name == "Minghao's Blog":
+                            display_name = 'Blog'
+                        else:
+                            display_name = name
+                        social_links[display_name] = href
 
 # Proceed with markdown conversion
 markdown_content = md.markdownify(str(soup), heading_style="ATX", bullets="-")
@@ -159,17 +164,19 @@ default_html = re.sub(
     flags=re.DOTALL
 )
 
-# Build the new social links HTML with only the specified links (excluding GitHub)
+# Build the new social links HTML with adjusted display name for the blog
 social_links_html = ''
-for name in ['Google Scholar', 'LinkedIn', "Minghao's Blog"]:
+for name in ['Google Scholar', 'LinkedIn', 'Blog']:
     href = social_links.get(name)
     if href:
         if name == 'Google Scholar':
             icon_class = 'fas fa-graduation-cap'
         elif name == 'LinkedIn':
             icon_class = 'fab fa-linkedin'
+        elif name == 'Blog':
+            icon_class = 'fa-solid fa-network-wired'
         else:
-            icon_class = 'fa-solid fa-network-wired'  # For the blog
+            icon_class = ''
         social_links_html += f'''
                 <li style="display: inline; margin-right: 15px;">
                   <a href="{href}" target="_blank">
