@@ -116,10 +116,10 @@ new_content = front_matter + markdown_content
 
 # Function to remove the last update line from the content
 def remove_last_update_line(content):
-    lines = content.strip().split('\n')
-    if lines and lines[-1].startswith("Last update on"):
-        lines = lines[:-2]  # Remove the last update line and the empty line before it
-    return '\n'.join(lines)
+    import re
+    # Remove 'Last update on' line and any preceding blank lines
+    content = re.sub(r'(\n\s*)*Last update on.*$', '', content.strip(), flags=re.MULTILINE)
+    return content
 
 # Check if index.md exists and compare content
 file_path = "index.md"
