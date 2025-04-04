@@ -32,7 +32,8 @@ layout: default
 - Created a high-performance, μs-level **async** serverless client library using **Cython**, and developed cloud-native applications (e.g. ML and microservices) with it on **AWS**.
 - Designed and implemented a novel flow-based scheduler using [[Ray](https://www.ray.io/)], resulting in **37%** TCO savings without compromising SLO guarantee on IOPS nor **tail latency**.
 - The Data Plane Paper: **En4S** [[PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/En4S.pdf)] [[Code](https://github.com/mhxie/En4S)] (SoCC ’24), **Best Paper Award**
-- The Control Plane Paper: **LESS** [PDF] [Code] (in sub)
+- The Control Plane Paper: **TBD** [PDF] [Code] (in sub)
+- The Application Paper: **LESS** [PDF] (NSDI ‘25 Poster)
 
 **Evaluating 100Gbps Flash Disaggregation on ARM SoC** [[Code](https://github.com/mhxie/reflex4arm)], 2018 - 2019   
 *UC Santa Cruz, Research Assistant, Funded by CRSS and Broadcom Inc.*
@@ -49,7 +50,7 @@ layout: default
 ## Teaching
 
 - CSE150 (TA): Introduction to Computer Networks, 24Spring
-- CSE120 (TA): Computer Architecture, **24Fall**, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win, 19Win
+- CSE120 (TA): Computer Architecture, 24Fall, 24Win, 23Fall, 22Spring, 21Fall, 21Win, 20Win, 19Win
 
 ## Publications
 
@@ -65,4 +66,4 @@ layout: default
 
 6. [FMS '19] **Xie, M.**, Qian, C., Litz, H. (2019, August). Evaluating 100Gbps flash disaggregation on ARM SoC. In *Flash Memory Summit*.
 
-Last update on 2025-03-21
+Last update on 2025-04-04
