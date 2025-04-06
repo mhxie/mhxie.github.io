@@ -7,6 +7,8 @@ layout: default
 
 *I am passionate about building scalable, high-performance, and predictable systems. Outside of work, I love exploring new places, as traveling opens my mind to fresh perspectives and diverse ways of life. Strategy-based and board games are a favorite pastime, challenging me to solve problems creatively and adapt to evolving scenarios. And as an NBA fan, I admire the dedication and humility of players like Kevin Durant, inspiring me to bring the same relentless commitment to my own goals.*
 
+*I am also a software engineer at* [*Anyscale*](https://www.anyscale.com/)*, where we’re building cutting-edge solutions for scalable AI infrastructure.* ***We’re hiring!*** *If you’re interested in joining us, feel free to* ***email me your resume****, and I’d be happy to refer you if there’s a match.*
+
 ## Work Experience
 
 **Transport Optimization for Storage Disaggregation**, June - Sep 2022   
@@ -66,4 +68,4 @@ layout: default
 
 6. [FMS '19] **Xie, M.**, Qian, C., Litz, H. (2019, August). Evaluating 100Gbps flash disaggregation on ARM SoC. In *Flash Memory Summit*.
 
-Last update on 2025-04-04
+Last update on 2025-04-06
