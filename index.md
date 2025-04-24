@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-*My name is Minghao Xie, and I am a final-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/) *and Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and National Science Foundation (NSF).*
+*My name is Minghao Xie, and I am a final-year Ph.D. candidate in Computer Engineering at the Baskin School of Engineering, UC Santa Cruz. I hold a B.E. degree (with honors) in Computer Science from Sichuan University, China. Advised by Prof.* [*Heiner Litz*](https://people.ucsc.edu/~hlitz/) *and Prof.* [*Chen Qian*](https://users.soe.ucsc.edu/~qian/)*, my research focuses on computer networks and systems, particularly flash storage disaggregation within data centers. Recently, I have expanded my work to AI infrastructure, exploring scalable compute platforms and distributed computing frameworks. My Ph.D. research has been supported by the IAB members of the Center for Research in Systems and Storage (*[*CRSS*](https://www.crss.ucsc.edu/index.html)*) at UCSC and National Science Foundation (NSF).*
 
 *I am passionate about building scalable, high-performance, and predictable systems. Outside of work, I love exploring new places, as traveling opens my mind to fresh perspectives and diverse ways of life. Strategy-based and board games are a favorite pastime, challenging me to solve problems creatively and adapt to evolving scenarios. And as an NBA fan, I admire the dedication and humility of players like Kevin Durant, inspiring me to bring the same relentless commitment to my own goals.*
 
@@ -68,4 +68,4 @@ layout: default
 
 6. [FMS '19] **Xie, M.**, Qian, C., Litz, H. (2019, August). Evaluating 100Gbps flash disaggregation on ARM SoC. In *Flash Memory Summit*.
 
-Last update on 2025-04-06
+Last update on 2025-04-24
