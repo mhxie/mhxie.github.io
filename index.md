@@ -2,9 +2,11 @@
 layout: default
 ---
 
-Hello! I am an Infrastructure Engineer at Anyscale, where I focus on building reliable and performant data plane supporting [Ray](https://www.ray.io/). I earned my Ph.D. in Computer Engineering from UC Santa Cruz (2025, expected), co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html)/NSF). My doctoral research centered on **distributed storage systems, cloud computing**, and touched upon emerging **AI infrastructure**. Post my graduation, I maintain a strong research interest in distributed **LLMs/LMM memory**.
+Hello! I am an Infrastructure Engineer at Anyscale, where I focus on building reliable and performant data plane supporting [Ray](https://www.ray.io/).
 
-Previously, I received my B.E. in Computer Science (with honors) from Sichuan University in 2018, where I was also selected as a Computer Science Star.
+I earned my Ph.D. in Computer Engineering from UC Santa Cruz (2025, expected), co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html)/NSF). My doctoral research centered on **distributed storage system, cloud computing**, and touched upon emerging **AI infrastructure**. Post my graduation, I maintain a strong research interest in distributed **LLM/LMM memory**.
+
+Previously, I received my B.E. in Computer Science (with honors) from Sichuan University in 2018, and was also selected as a Computer Science Star.
 
 ## Work Experience
 
@@ -48,4 +50,4 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 *CSE150: Introduction to Computer Networks*  
 *CSE120: Computer Architecture*
 
-Last update on 2025-05-27
+Last update on 2025-05-28
