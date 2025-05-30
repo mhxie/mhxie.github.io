@@ -16,7 +16,7 @@ Foundation Team, **2025 Jan - Now** (Hybrid)
 
 [**Meta Platform**](https://www.meta.com/), Research Engineering Intern  
 CEA Team, 21 Summer (remote) & 22 Summer (hybrid)  
-*Built and optimized disaggregated storage systems for ML.*
+*Built and optimized disaggregated storage systems.*
 
 ## Publications
 
@@ -50,4 +50,4 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 *CSE150: Introduction to Computer Networks*  
 *CSE120: Computer Architecture*
 
-Last update on 2025-05-29
+Last update on 2025-05-30
