@@ -44,10 +44,15 @@ SoCC '20 | [PDF](https://dl.acm.org/doi/10.1145/3419111.3421279)
 **Minghao Xie**, Chen Qian, Heiner Litz (2020, January)  
 OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf) | [Code](https://github.com/mhxie/reflex4arm)
 
+## Professional Services
+- Conference Reviewer: TDSC '22
+- Journal Reviewer: CAL '24
+- Poster Reviewer: ICCCN '24
+
 ## Teaching
 
 **UC Santa Cruz, Teaching Assistant, 2019 - 2024**  
-*CSE150: Introduction to Computer Networks*  
-*CSE120: Computer Architecture*
+*CMPE110,* *CSE120: Computer Architecture*  
+*CSE150: Introduction to Computer Networks*
 
-Last update on 2025-05-30
+Last update on 2025-06-05
