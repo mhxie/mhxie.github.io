@@ -4,7 +4,7 @@ layout: default
 
 Hello! I am an Infrastructure Engineer at Anyscale, where I focus on building reliable and performant data plane supporting [Ray](https://www.ray.io/).
 
-I earned my Ph.D. in Computer Engineering from UC Santa Cruz (2025, expected), co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html)/NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in distributed **LLM memory**.
+I earned my Ph.D. in Computer Engineering from UC Santa Cruz in 2025, co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html)/NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in distributed **LLM memory**.
 
 Previously, I received my B.E. in Computer Science (with honors) from Sichuan University in 2018, and was selected as a Computer Science Star.
 
@@ -47,7 +47,7 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 ## Professional Services
 
 Program Committee: TBA  
-Conference Reviewer: TBA  
+Conference/Workshop Reviewer: ACL-SRW '25  
 Journal Reviewer: [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) '22, [CAL](https://www.computer.org/csdl/journal/ca) '24  
 Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 
@@ -57,4 +57,4 @@ Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-06-06
+Last update on 2025-06-07
