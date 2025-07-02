@@ -46,7 +46,7 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 
 ## Professional Services
 
-Conference Reviewer: [EuroSys](https://2026.eurosys.org/) '26 (Shadow PC)  
+Conference Reviewer: [SoCC](https://acmsocc.org/2025) '25 (PC), [EuroSys](https://2026.eurosys.org/) '26 (Shadow PC)  
 Journal Reviewer: [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) '22, [CAL](https://www.computer.org/csdl/journal/ca) '24  
 Workshop/Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 
@@ -56,4 +56,4 @@ Workshop/Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-07-01
+Last update on 2025-07-02
