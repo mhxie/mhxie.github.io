@@ -42,13 +42,13 @@ SoCC '20 | [PDF](https://dl.acm.org/doi/10.1145/3419111.3421279)
 
 **ReFlex4arm: Supporting 100GbE flash storage disaggregation on ARM SoC**  
 **Minghao Xie**, Chen Qian, Heiner Litz (2020, January)  
-OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf) | [Code](https://github.com/mhxie/reflex4arm)
+OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf) | [Code](https://github.com/mhxie/reflex4arm)x
 
 ## Professional Services
 
-Conference Reviewer: [SoCC](https://acmsocc.org/2025) '25 (PC), [EuroSys](https://2026.eurosys.org/) '26 (Shadow PC)  
-Journal Reviewer: [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) '22, [CAL](https://www.computer.org/csdl/journal/ca) '24  
-Workshop/Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
+Conference Reviewer: SoCC '[25](https://acmsocc.org/2025) (PC), EuroSys '[26](https://2026.eurosys.org/) (Shadow PC)  
+Journal Reviewer: TDSC '[22](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858), CAL '[24](https://www.computer.org/csdl/journal/ca)  
+Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html)
 
 ## Teaching
 
@@ -56,4 +56,4 @@ Workshop/Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-07-03
+Last update on 2025-07-04
