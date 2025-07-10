@@ -42,7 +42,7 @@ SoCC '20 | [PDF](https://dl.acm.org/doi/10.1145/3419111.3421279)
 
 **ReFlex4arm: Supporting 100GbE flash storage disaggregation on ARM SoC**  
 **Minghao Xie**, Chen Qian, Heiner Litz (2020, January)  
-OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf) | [Code](https://github.com/mhxie/reflex4arm)x
+OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/assets/paper/ReFlex4ARM.pdf) | [Code](https://github.com/mhxie/reflex4arm)
 
 ## Professional Services
 
@@ -56,4 +56,4 @@ Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html)
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-07-09
+Last update on 2025-07-10
