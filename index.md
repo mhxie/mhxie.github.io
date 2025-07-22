@@ -4,14 +4,14 @@ layout: default
 
 Hello! I am an Infrastructure Engineer at Anyscale, where I focus on building reliable and performant data plane supporting [Ray](https://www.ray.io/).
 
-I earned my Ph.D. in Computer Engineering from UC Santa Cruz in 2025, co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html)/NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in distributed **LLM memory**.
+I earned my Ph.D. in Computer Engineering from UC Santa Cruz in 2025, co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html) & NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in distributed **LLM memory**.
 
 Previously, I received my B.E. in Computer Science (with honors) from Sichuan University in 2018, and was selected as a Computer Science Star.
 
 ## Work Experience
 
 [**Anyscale**](https://www.anyscale.com/), Software Engineer   
-Foundation Team, **2025 Jan - Now** (Hybrid)  
+Foundation Team, **2025 Jan - Now** (hybrid)  
 *Making distributed computing easy.*
 
 [**Meta Platform**](https://www.meta.com/), Research Engineering Intern  
@@ -46,10 +46,9 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 
 ## Professional Services
 
-Program Committee: TBA  
-Conference/Workshop Reviewer: TBA  
-Journal Reviewer: [TDSC](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858) '22, [CAL](https://www.computer.org/csdl/journal/ca) '24  
-Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
+Conference Reviewer: SoCC '[25](https://acmsocc.org/2025) (PC), EuroSys '[26](https://2026.eurosys.org/) (Shadow PC)  
+Journal Reviewer: TDSC '[22](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858), CAL '[24](https://www.computer.org/csdl/journal/ca)  
+Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html), NeurIPS '[25](https://neurips.cc/) [GenProCC](https://genprocc.github.io/)
 
 ## Teaching
 
@@ -57,4 +56,4 @@ Poster Reviewer: [ICCCN '24](http://www.icccn.org/icccn24/index.html)
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-06-11
+Last update on 2025-07-22

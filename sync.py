@@ -4,6 +4,7 @@ import markdownify as md
 from datetime import datetime, timezone
 import os
 import re  # For regular expressions
+import sys
 
 url = 'https://reflect.site/g/xmh/minghao-xie--home-page/c65e893dc6f546f0b0867ec0158fb8ba'
 
@@ -247,6 +248,7 @@ def remove_last_update_line(content):
 
 # Check if index.md exists and compare content
 file_path = "index.md"
+index_md_changed = False
 if os.path.exists(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         existing_content = file.read()
@@ -255,12 +257,14 @@ if os.path.exists(file_path):
     if existing_content_without_update == new_content.strip():
         print("No changes detected. Markdown file is up-to-date.")
     else:
+        index_md_changed = True
         current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
         new_content += f"\n\nLast update on {current_date}"
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(new_content)
         print("Markdown file has been updated successfully.")
 else:
+    index_md_changed = True
     current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     new_content += f"\n\nLast update on {current_date}"
     with open(file_path, "w", encoding="utf-8") as file:
@@ -271,6 +275,7 @@ else:
 default_html_path = os.path.join('_layouts', 'default.html')
 with open(default_html_path, 'r', encoding='utf-8') as file:
     default_html = file.read()
+    original_default_html = default_html
 
 import re
 
@@ -338,8 +343,17 @@ default_html = re.sub(
     flags=re.DOTALL
 )
 
-# Write the updated content back to default.html
-with open(default_html_path, 'w', encoding='utf-8') as file:
-    file.write(default_html)
+# Write the updated content back to default.html only if it changed
+default_html_changed = False
+if default_html != original_default_html:
+    default_html_changed = True
+    with open(default_html_path, 'w', encoding='utf-8') as file:
+        file.write(default_html)
+    print("default.html has been updated successfully.")
+else:
+    print("No changes detected. default.html is up-to-date.")
 
-print("default.html has been updated successfully.")
+# Exit with non-zero status if no changes were made
+if not index_md_changed and not default_html_changed:
+    print("No changes detected in any files. Exiting without changes.")
+    sys.exit(0)

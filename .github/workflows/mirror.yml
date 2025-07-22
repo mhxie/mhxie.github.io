@@ -36,10 +36,19 @@ jobs:
 
     - name: Run script
       run: |
-        python sync.py
+        python sync.py || exit_code=$?
+        if [ "${exit_code:-0}" -eq 0 ]; then
+          echo "Script indicates changes were made"
+        else
+          echo "Script indicates no changes were made"
+          exit 0
+        fi
 
     - name: Fix markdown linting issues
-      run: markdownlint --fix index.md || true
+      run: |
+        if [ -f index.md ]; then
+          markdownlint --fix index.md || true
+        fi
 
     - name: Check for changes
       id: git_diff
