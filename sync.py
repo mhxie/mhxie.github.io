@@ -356,4 +356,4 @@ else:
 # Exit with non-zero status if no changes were made
 if not index_md_changed and not default_html_changed:
     print("No changes detected in any files. Exiting without changes.")
-    sys.exit(0)
+    sys.exit(1)
