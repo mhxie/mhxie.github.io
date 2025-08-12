@@ -256,6 +256,8 @@ if os.path.exists(file_path):
 
     if existing_content_without_update == new_content.strip():
         print("No changes detected. Markdown file is up-to-date.")
+        # Keep the existing content with its existing date
+        new_content = existing_content
     else:
         index_md_changed = True
         current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')

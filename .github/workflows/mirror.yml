@@ -53,7 +53,7 @@ jobs:
     - name: Check for changes
       id: git_diff
       run: |
-        git diff --exit-code || echo "::set-output name=changes_detected::true"
+        git diff --exit-code || echo "changes_detected=true" >> $GITHUB_OUTPUT
 
     - name: Commit and push changes
       if: steps.git_diff.outputs.changes_detected == 'true'

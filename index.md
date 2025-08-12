@@ -10,7 +10,7 @@ Previously, I received my B.E. in Computer Science (with honors) from Sichuan Un
 
 ## Work Experience
 
-[**Anyscale**](https://www.anyscale.com/), Software Engineer
+[**Anyscale**](https://www.anyscale.com/), Software Engineer   
 Foundation Team, **2025 Jan - Now** (hybrid)  
 *Making distributed computing easy.*
 
@@ -56,4 +56,4 @@ Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html), 
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-07-22
+Last update on 2025-08-12
