@@ -10,7 +10,7 @@ Previously, I received my B.E. in Computer Science (with honors) from Sichuan Un
 
 ## Work Experience
 
-[**Anyscale**](https://www.anyscale.com/), Software Engineer   
+[**Anyscale**](https://www.anyscale.com/), Software Engineer
 Foundation Team, **2025 Jan - Now** (hybrid)  
 *Making distributed computing easy.*
 
