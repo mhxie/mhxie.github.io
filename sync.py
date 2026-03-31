@@ -236,6 +236,9 @@ markdown_content = re.sub(r'(\*\*\*[^\*]+\*\*\*)\s*\*?([aA][nN][dD])\*?\s+(?=\*\
 # 4. Specifically fix "***phrase***,* *next phrase*" to "***phrase***, *next phrase*"
 markdown_content = re.sub(r'(\*\*\*[^\*]+\*\*\*,\s*)\*(?=\s+\*)', r'\1', markdown_content)
 
+# 5. Normalize trailing spaces to exactly 2 for markdown line breaks
+markdown_content = re.sub(r' {3,}$', '  ', markdown_content, flags=re.MULTILINE)
+
 front_matter = "---\nlayout: default\n---\n\n"
 new_content = front_matter + markdown_content
 
@@ -261,7 +264,7 @@ if os.path.exists(file_path):
     else:
         index_md_changed = True
         current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-        new_content += f"\n\nLast update on {current_date}"
+        new_content += f"\n\nLast update on {current_date}\n"
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(new_content)
         print("Markdown file has been updated successfully.")

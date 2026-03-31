@@ -2,17 +2,21 @@
 layout: default
 ---
 
-Hello! I am an Infrastructure Engineer at Anyscale, where I focus on building reliable and performant data plane supporting [Ray](https://www.ray.io/).
+Hello! I am a Software Engineer at Luma AI, where I focus on data infrastructure for multimodal research. Previously, I was an Infrastructure Engineer at Anyscale, building reliable and performant data planes supporting [Ray](https://www.ray.io/).
 
-I earned my Ph.D. in Computer Engineering from UC Santa Cruz in 2025, co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html) & NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in distributed **LLM memory**.
+I earned my Ph.D. in Computer Engineering from UC Santa Cruz in 2025, co-advised by Prof. [Heiner Litz](https://people.ucsc.edu/~hlitz/) and Prof. [Chen Qian](https://users.soe.ucsc.edu/~qian/) (supported by [CRSS](https://www.crss.ucsc.edu/index.html) & NSF). My doctoral research centered on **Distributed Storage Systems**, **Cloud Computing**, and **Quality of Service**. Post my graduation, I maintain a strong research interest in multimodal long-context memory.
 
 Previously, I received my B.E. in Computer Science (with honors) from Sichuan University in 2018, and was selected as a Computer Science Star.
 
 ## Work Experience
 
-[**Anyscale**](https://www.anyscale.com/), Software Engineer
-Foundation Team, **2025 Jan - Now** (hybrid)  
-*Making distributed computing easy.*
+[**Luma AI**](https://lumalabs.ai/), Software Engineer  
+Data Infra Team, **2026 Apr - Now** (onsite)  
+*Building multimodal data infra.*
+
+[**Anyscale**](https://www.anyscale.com/), Software Engineer  
+Foundation Team, 2025 Jan - 2026 Mar (hybrid)  
+*Made distributed computing easy.*
 
 [**Meta Platform**](https://www.meta.com/), Research Engineering Intern  
 CEA Team, 21 Summer (remote) & 22 Summer (hybrid)  
@@ -26,15 +30,15 @@ VLDB '25 | [PDF](https://dl.acm.org/doi/10.14778/3705829.3705849) | [Code](https
 
 **LESS: An LLM Ephemeral Storage System**  
 **Minghao Xie**, Ruilin Zhou, Yi Liu, Chen Qian, Heiner Litz (2025, April)  
-NSDI '25 Poster & In sub | PDF | Code (Available soon)
+NSDI '25 Poster
 
 **En4S: Enabling SLOs in Serverless Storage Systems**  
 **Minghao Xie**, Chen Qian, Heiner Litz (2024, November)  
-SoCC '24 | [PDF](https://dl.acm.org/doi/10.1145/3698038.3698529) | [Code](https://github.com/mhxie/En4S) | **Best Paper Award**
+SoCC '24 | [PDF](https://dl.acm.org/doi/10.1145/3698038.3698529) | [Code](https://github.com/mhxie/En4S) | [**Best Paper Award**](https://x.com/ACMSoCC/status/1859319803829436814?s=20)
 
 **Smash: Flexible, fast, and resource-efficient placement and lookup of distributed storage**  
 Yi Liu, Shouqian Shi, **Minghao Xie**, Heiner Litz, Chen Qian (2023, June)  
-SIGMETRICS '23 | [PDF](https://dl.acm.org/doi/10.1145/3606376.3593569) | [Code](https://github.com/yliu634/smash) | **CACM Research Highlights**
+SIGMETRICS '23 | [PDF](https://dl.acm.org/doi/10.1145/3606376.3593569) | [Code](https://github.com/yliu634/smash) | [**CACM Research Highlights**](https://dl.acm.org/doi/10.1145/3747582)
 
 **Concury: A fast and light-weight software cloud load balancer**  
 Shouqian Shi, Ye Yu, **Minghao Xie**, Xin Li, Xiaozhou Li, Ying Zhang, Chen Qian (2020, October)  
@@ -46,8 +50,8 @@ OCP '20 & FMS '19 | [PDF](https://github.com/mhxie/mhxie.github.io/blob/main/ass
 
 ## Professional Services
 
-Conference Reviewer: SoCC '[25](https://acmsocc.org/2025) (PC), EuroSys '[26](https://2026.eurosys.org/) (Shadow PC)  
-Journal Reviewer: TDSC '[22](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858), CAL '[24](https://www.computer.org/csdl/journal/ca)  
+Conference Reviewer: SoCC '[25](https://acmsocc.org/2025) '[26](https://acmsocc.org/2026/) (PC), EuroSys '[26](https://2026.eurosys.org/) (Shadow PC)  
+Journal Reviewer: TDSC '[22](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858), CAL '[24](https://www.computer.org/csdl/journal/ca), '26  
 Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html), NeurIPS '[25](https://neurips.cc/) [GenProCC](https://genprocc.github.io/)
 
 ## Teaching
@@ -56,4 +60,4 @@ Workshop/Poster Reviewer: ICCCN '[24](http://www.icccn.org/icccn24/index.html), 
 *CMPE110,* *CSE120: Computer Architecture*  
 *CSE150: Introduction to Computer Networks*
 
-Last update on 2025-08-14
+Last update on 2026-03-31
